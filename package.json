@@ -1,0 +1,23 @@
+{
+  "name": "pylot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development parcel serve public/index.html --open --port 8080",
+    "test:cypress": "start-server-and-test start http://localhost:8080 cypress",
+    "cypress": "cypress open"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cypress": "^3.7.0",
+    "parcel-bundler": "^1.12.4",
+    "start-server-and-test": "^1.10.6"
+  },
+  "dependencies": {
+    "container": "^0.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
