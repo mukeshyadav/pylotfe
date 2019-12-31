@@ -1,4 +1,4 @@
-# Pyplot Front End Test, please follow following instructions to run application
+# Please follow following instructions to run application
 
 ### Setting up the project
 
